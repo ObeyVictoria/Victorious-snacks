@@ -1,0 +1,99 @@
+* {box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+}
+header {color: rgb(224, 16, 214);
+         background-color: #99f01f;
+         font-family: serif;
+         text-align: center;
+         padding: 100px;
+       }
+  header span {
+     display: block;
+  }     
+  .text1 {
+       position: relative;
+       letter-spacing: 8px;
+margin-bottom: 10px;
+     font-size: 30px;
+     font-weight: 800;
+     background: #99f01f;
+     text-shadow: 0 1px 0 black,
+                  0 2px 0 black,
+                  0 3px 0 black,
+                  0 4px 0 black,
+                  0 5px 0 black,
+                  0 6px 0 black,
+                  0 7px 0 black,
+                  0 8px 0 transparent,
+                  0 9px 0 transparent,
+                  0 10px 0 transparent,
+                  0 11px 0 transparent,
+                  0 12px 12px rgba(0, 0, 0, 0.4);
+     animation: text 10s 1 ;
+  }
+                                                                               
+  .text2 {
+       font-size: 12px;
+      font-weight: bolder;
+      color: black;
+      font-family: cursive;
+  }
+  #main-h3 {margin-top: 0;
+     color: white;
+     font-family: cursive;} 
+  .container {
+     margin: 10px;
+     height: 300px;
+  	list-style: square;
+  	display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+  }
+  .container-item {
+     background-color: rgba(0, 0, 0, 0.5);
+     font-size: 24px;
+     text-align: center;
+     width: 110px;
+     line-height: 50px;
+     margin: 10px;
+  }
+  #main-p {
+     text-align: center;
+     font-size: 24px;
+     font-weight: 60px;
+     color: green;
+     padding: 40px;
+  }
+  address {
+     float: right;
+     padding-right: 20px;
+     font-size: 18px;
+     color: #f01f5e;
+     background-color: rgba(0, 0, 0, 0.5);
+      }
+
+  article {background-image: url('cake.jpg');
+           background-repeat: repeat;
+           background-attachment: scroll;
+           background-size: contain;
+           font-family: fantasy;
+           } 
+@keyframes text{
+     0% {color: ;
+          margin-bottom: -20px;
+     }
+     30%{
+          letter-spacing: 25px;
+          margin-bottom: -20px;
+          font-size: 30px;
+          
+     }
+     70%{
+          letter-spacing: 8px;
+          margin-bottom: -20px;
+          font-size: 50px;
+     }
+
+}
